@@ -1,0 +1,91 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: site
+    label: Conteúdo do site
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: brand
+        label: Nome da empresa
+        type: string
+      - name: eyebrow
+        label: Linha acima do título principal
+        type: string
+      - name: heroTitle
+        label: Título principal
+        type: string
+      - name: heroDescription
+        label: Texto de apresentação
+        type: text
+      - name: heroNote
+        label: Chamada curta
+        type: string
+      - name: servicesIntro
+        label: Introdução dos serviços
+        type: text
+      - name: service1Category
+        label: Categoria do serviço 1
+        type: string
+      - name: service1Title
+        label: Título do serviço 1
+        type: string
+      - name: service1Description
+        label: Descrição do serviço 1
+        type: text
+      - name: service2Category
+        label: Categoria do serviço 2
+        type: string
+      - name: service2Title
+        label: Título do serviço 2
+        type: string
+      - name: service2Description
+        label: Descrição do serviço 2
+        type: text
+      - name: service3Category
+        label: Categoria do serviço 3
+        type: string
+      - name: service3Title
+        label: Título do serviço 3
+        type: string
+      - name: service3Description
+        label: Descrição do serviço 3
+        type: text
+      - name: aboutText
+        label: Texto sobre a empresa
+        type: text
+      - name: musicTitle
+        label: Título do projeto musical
+        type: string
+      - name: musicDescription
+        label: Descrição do projeto musical
+        type: text
+      - name: musicSite
+        label: Link do projeto musical
+        type: string
+      - name: contactText
+        label: Mensagem de contato
+        type: text
+      - name: phoneDisplay
+        label: Telefone exibido
+        type: string
+      - name: phoneRaw
+        label: Telefone com código do país, somente números
+        type: string
+      - name: whatsapp
+        label: Link do WhatsApp
+        type: string
+      - name: serviceArea
+        label: Cidade e área de atendimento
+        type: string
+      - name: availability
+        label: Informação de disponibilidade
+        type: string
+      - name: metaDescription
+        label: Descrição para buscadores
+        type: text
+      - name: schemaDescription
+        label: Descrição estruturada da empresa
+        type: text
